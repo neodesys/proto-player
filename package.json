@@ -1,0 +1,37 @@
+{
+  "name": "proto-player",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Copyright (C) 2020, Loïc Le Page",
+  "private": true,
+  "repository": "github:neodesys/proto-player",
+  "devDependencies": {
+    "css-loader": "5.0.0",
+    "html-webpack-plugin": "5.0.0-alpha.6",
+    "jshint": "2.12.0",
+    "jshint-stylish": "2.2.1",
+    "rimraf": "3.0.2",
+    "simplify-loader": "0.1.0",
+    "terser-webpack-plugin": "5.0.0",
+    "webpack": "5.2.0",
+    "webpack-cli": "4.1.0",
+    "webpack-dev-server": "3.11.0"
+  },
+  "scripts": {
+    "jshint": "jshint --reporter=node_modules/jshint-stylish src",
+    "build": "rimraf dist && webpack",
+    "dev": "webpack serve",
+    "make": "npm run jshint && npm run build"
+  },
+  "jshintConfig": {
+    "browser": true,
+    "curly": true,
+    "eqeqeq": true,
+    "esversion": 6,
+    "nonbsp": true,
+    "nonew": true,
+    "undef": true,
+    "unused": true,
+    "strict": "implied"
+  }
+}
