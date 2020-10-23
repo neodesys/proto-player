@@ -1,0 +1,6 @@
+*
+!/.gitignore
+!/CNAME
+!/index.html
+!/proto-player-*.min.js
+!/proto-player-*.min.js.map
