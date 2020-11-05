@@ -6,7 +6,7 @@
   "private": true,
   "repository": "github:neodesys/proto-player",
   "devDependencies": {
-    "css-loader": "5.0.0",
+    "css-loader": "5.0.1",
     "html-webpack-plugin": "5.0.0-alpha.6",
     "jshint": "2.12.0",
     "jshint-stylish": "2.2.1",
